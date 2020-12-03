@@ -4,3 +4,47 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+body{
+    background: rgb(200, 193, 211);
+}
+
+.espacio{
+    height: 20px;
+}
+
+.menu{
+    background: rgb(168, 161, 179);
+    height: 60px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    padding: 0 50px;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.menu ul{
+    float: right;
+    margin-right: 20px;
+}
+.menu ul li{
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 60px;
+}
+
+.menu ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    background: rgb(144, 117, 189);
+}
+
