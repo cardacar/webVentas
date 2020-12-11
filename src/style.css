@@ -4,47 +4,61 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-body{
-    background: rgb(200, 193, 211);
+.page{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+.page .container .main {
+    display: inline-grid;
+    width: 100%;
+    height: 500px;
+    background-color: #eeeeee;
 }
 
-.espacio{
-    height: 20px;
+.page .container .main .nav{
+    float: right;
+    margin-top: 30px;
 }
 
-.menu{
-    background: rgb(168, 161, 179);
-    height: 60px;
+
+.page .container .main nav{
+    background: #e2e2e2;
+    height: 80px;
     width: 100%;
 }
 
-label.logo{
+.page .container .main .logo{
     color: white;
     font-size: 35px;
-    padding: 0 50px;
-    line-height: 60px;
+    line-height: 80px;
+    padding: 0px 30px;
     font-weight: bold;
 }
 
-.menu ul{
+.page .container .main nav ul{
     float: right;
-    margin-right: 20px;
+    margin-right: 10px;
 }
-.menu ul li{
+
+.page .container .main nav ul li{
     display: inline-block;
+    line-height: 70px;
     margin: 0 5px;
-    line-height: 60px;
 }
 
-.menu ul li a{
-    color: white;
-    font-size: 17px;
+.page .container .main nav ul li a{
+    color: black;
+    font-size: 20px;
     padding: 7px 13px;
-    border-radius: 5px;
-    text-transform: uppercase;
+    border-radius: 3px;
+}
+.page .container .main nav ul li a:hover{
+    background: #cccbcb;
 }
 
-a:hover{
-    background: rgb(144, 117, 189);
+footer{
+    
+    background: black;
+    height: 115px;
 }
 
