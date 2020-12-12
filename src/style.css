@@ -4,25 +4,31 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
+body{
+    background-image: url(http://placekitten.com/g/1500/500);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+}
+
+
 .page{
+    
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
+
 }
 .page .container .main {
     display: inline-grid;
+    
     width: 100%;
     height: 500px;
-    background-color: #eeeeee;
+    background-color: transparent;
 }
-
-.page .container .main .nav{
-    float: right;
-    margin-top: 30px;
-}
-
 
 .page .container .main nav{
-    background: #e2e2e2;
+    background: transparent;
     height: 80px;
     width: 100%;
 }
@@ -56,8 +62,28 @@
     background: #cccbcb;
 }
 
+.page .container .content{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+
+}
+
+.page .container .content .product{
+    background-color: black;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    margin: 30px;
+    background-image: url(http://placekitten.com/g/160/170);
+    height: 160px;
+    width: 170px;
+}
+
+
+
 footer{
-    
+    width: 100%;
     background: black;
     height: 115px;
 }
