@@ -8,7 +8,7 @@
 body{
     background-image: url(http://placekitten.com/g/1500/500);
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
 
 }
 
@@ -19,6 +19,14 @@ body{
     grid-template-columns: 1fr 8fr 1fr;
 
 }
+
+.page .space{
+    background-color: transparent;
+    /*Usar 660 en pantalla pequeña, pero 500 en
+    pantalla completa*/
+    border-bottom: 660px solid white;
+}
+
 .page .container .main {
     display: inline-grid;
     
