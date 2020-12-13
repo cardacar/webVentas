@@ -22,7 +22,7 @@ body{
 
 .page .space{
     background-color: transparent;
-    border-bottom: 440px solid white;
+    border-bottom: 1024px solid white;
 }
 
 
@@ -44,6 +44,7 @@ body{
 .page .container .main .logo{
     color: white;
     font-size: 35px;
+    text-decoration: line-through;
     line-height: 80px;
     padding: 0px 30px;
     font-weight: bold;
@@ -74,12 +75,23 @@ body{
     background-color: white;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: center;
     width: 100%;
 
 }
+.page .container .content .details{
+    align-content: center;
+}
+.page .container .content .details p{
+    text-align: center;
+}
 
-.page .container .content .product{
+.page .container .content .details a{
+    text-decoration: none;
+    color: black;
+}
+
+.page .container .content .details .product{
     background-color: black;
     box-shadow: 2px 2px 5px rgb(0, 0, 0);
     margin: 30px;
