@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.page{
+    
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+
+}
+
+.page .container nav{
+    background: transparent;
+    height: 80px;
+    width: 100%;
+}
+
+.page .container .logo{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0px 30px;
+    font-weight: bold;
+}
+
+.page .container nav ul{
+    float: right;
+    margin-right: 10px;
+}
+
+.page .container nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+.page .container nav ul li a{
+    color: black;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+.page .container nav ul li a:hover{
+    background: #cccbcb;
+}
