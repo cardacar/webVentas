@@ -17,7 +17,10 @@ body{
 }
 
 .page .container{
+    display: flex;
+    flex-wrap: wrap;
     height: 500px;
+    background: yellowgreen;
 }
 
 
@@ -25,6 +28,7 @@ body{
     display: inline-grid;
     background: aquamarine;
     width: 100%;
+    height: 80px;
 
 }
 
@@ -65,36 +69,25 @@ body{
 
 .page .container .buscador{
     display: flex;
+    background: #55acee;
+    justify-content: center;
+    padding-left: 40px;
     width: 100%;
-
     align-items: center;    
     height: 40px;
 }
 
 .page .container .buscador input{
-    border-radius: 4px;
-    width: 80%;
-    height: 20px;
+    width: 50%;
+    height: 26px;
 
 }
-.page .container .buscador button{
-    color: #55acee;
-    border: 2px #55acee solid;
-    cursor: pointer;
-    margin: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    padding: 10px;
-    font-size: 10px;
-    transition: .3s;
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -o-transition: .3s;
-    display: inline-block;
+.page .container .buscador .buscar{
+   padding-top: 5px;
 
 }
 
-.page .container .buscador button:hover{
+.page .container .buscador .buscar:hover{
     background-color: #55acee;
     color: #fff
 }
