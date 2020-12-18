@@ -78,6 +78,8 @@
 .container .content .productsP{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
     background: yellowgreen;
     margin-right: 20px;
     margin-left: 20px;
@@ -86,13 +88,12 @@
     width: 100% ;
 }
 
-.container .content .productsP p{
-    display: inline-block;
+.container .content .productsP .producto{
     padding: 10px;
-    color: white;
-    background: black;
-    height: 180px;
-    width: 130px;
+    background: red;
+    color: black;
+    text-align: center;
+    width: 180px;
 }
 
 .container .margin{
@@ -103,4 +104,9 @@
 footer{
     background: black;
     height: 150px;
+}
+@media(max-width: 952px){
+    .container .content .productsP{
+        justify-content: start;
+    }
 }
