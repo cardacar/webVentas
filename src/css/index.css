@@ -52,13 +52,12 @@ body{
 
 .page .container .main nav ul{
     float: right;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 .page .container .main nav ul li{
     display: inline-block;
     line-height: 70px;
-    margin: 0 5px;
 }
 
 .page .container .main nav ul li a{
