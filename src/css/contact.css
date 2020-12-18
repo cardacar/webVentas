@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+.nav{
+    background: black;
+    width: 100%;
+    height: 80px;
+}
+
+.nav nav .logo{
+    color: white;
+    line-height: 80px;
+    padding: 0 30px;
+    font-size: 30px;
+    float: left;
+}
+
+.nav nav ul {
+    margin-right: 20px;
+    float: right;
+}
+.nav nav ul li {
+   display: inline-block;
+   line-height: 80px;
+   margin: 0 5px;
+
+}
+
+.nav nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7 20px;
+    border-radius: 5px;
+}
+
+.nav nav ul li a:hover{
+    background: white;
+    color: black;
+    transition: .3s;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 0.5fr 9fr 0.5fr;
+    background: white;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.container .content{
+   
+}
+
+.container .content .carrusel{
+    width: 100%;
+    background: whitesmoke;
+    margin: 20px;
+    height: 300px;
+}
+
+.container .content .publicidad{
+    background-color: brown;
+    width: 100%;
+    height: 70px;
+    margin: 20px;
+}
+
+.container .content h1{
+    text-align: center;
+}
+
+.container .content .productsP{
+    display: flex;
+    flex-wrap: wrap;
+    background: yellowgreen;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 15px;
+    height: auto;
+    width: 100% ;
+}
+
+.container .content .productsP p{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background: black;
+    height: 180px;
+    width: 130px;
+}
+
+.container .margin{
+    height: 100%;
+    background: white;
+}
+
+footer{
+    background: black;
+    height: 150px;
+}
