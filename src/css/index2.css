@@ -6,6 +6,7 @@
 }
 
 
+
 .nav{
     background: black;
     width: 100%;
@@ -43,7 +44,6 @@
 }
 
 .container{
-    background: whitesmoke;
     margin-left: 5%;
     margin-right: 5%;
     height: auto;
@@ -57,9 +57,9 @@
 
 .container .content .carrusel{
     width: 96.5%;
-    background: black;
     margin: 20px;
 }
+
 .container .content .carrusel img{
     display: block;
     margin: auto;
@@ -71,12 +71,10 @@
 .container .content .publicidad{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: brown;
     height: 100px;
     margin: 20px;
 }
 .container .content .publicidad .imagen{
-    background: green;
     margin: 10px;
 }
 
@@ -100,7 +98,6 @@
 
 .container .content .productsP .producto{
     padding: 10px;
-    background: rgb(218, 218, 218);
     color: black;
     text-align: center;
     width: 180px;
