@@ -49,12 +49,15 @@
     height: auto;
 }
 
+
 .container .content{
     padding: 10px;
    
 }
 
 .container .content .carrusel{
+    width: 96.5%;
+    background: black;
     margin: 20px;
 }
 .container .content .carrusel img{
